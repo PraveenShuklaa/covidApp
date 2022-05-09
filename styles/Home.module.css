@@ -1,0 +1,25 @@
+.covidTableParent {
+  height: 100vh;
+  min-height: 20rem;
+  overflow-y: auto;
+}
+.covidTable {
+  height: calc(100% - 4rem);
+}
+.covidTable table th {
+  white-space: nowrap;
+}
+.countryTable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.countryTable img {
+  height: 3rem;
+}
+
+.countryTable p {
+  margin: 0.5rem 0 0 0;
+}
